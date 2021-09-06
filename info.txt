@@ -1,0 +1,79 @@
+java -version   /// paziuri kokia versija suinstaliuota
+
+java 11 jdk for windows// i google
+
+romas.p@gmail.com /// oracle acountas
+2Internetas+//paswordas
+============================================
+start -> enviroment variables-> enviroment variables ->
+====================================================
+System variables
+JAVA_HOME C:\Program Files\Java\jdk-11.0.12           ////////////parenka kuria versija naudos
+JAVA_HOME_11 C:\Program Files\Java\jdk-11.0.12
+JAVA_HOME_8 C:\Program Files\Java\jdk1.8.0_301
+
+Path %JAVA_HOME%\bin
+=================================================
+
+ATSISIUTI APACHE MAVEN
+i google apache maven 3.8.2
+Binary zip archive ir bin.zip
+extractinti kataloge kokiam nors ir sudeti i enviroment variables kaip ir java
+MAVEN_HOME C:\MyPrograms\apache-maven-3.8.2
+%JAVA_HOME%\bin
+CMD bus mvn -version
+=============================================================================
+=============================================================================
+GITAS
+i google git bash
+cmd terminale git --version
+git config --edit --global//sukuria globalconfig faila
+C:\Users\Brolija123
+
+[user]
+	name = Romas Palisaitis
+	email =Romas.P@gmail.lt
+[core]
+	editor = vim
+	precomposeUnicode = true
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[filesystem "Oracle Corporation|1.8.0_301|-956638738"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
+========================================================
+Git komandos
+git clean -f -d ///istrina untraked filus
+git co -b brancho_vardas /// sukuria brancha
+git clone ir irasyti gitLabo repository // nuklonuoja repository
+git co brancho_vardas // nueijna i brancha
+git add . //ka nori ideti i komita
+git ci -m"Prideti" // sukuria komita
+galva turi rodyti i brancha
+git reset --hard brancho vardas dazniausiai origin main
+git fetch -p padaro kas isoreje tas ir viduje
+git push origin brancho vardas // supushina i isore
+=======================================================
+======================================================= 
+
+Suinstaliuoti Eclipse STS
+eiti i windows -> preferences -> irasyti encoding pasirinkti workspace ir padaryti i UTF-8
+norint pakeisti projekto java versija
+ant projekto vardo -> properties -> java build Path -> libraries -> add Library -> JRE System Library ir pasikeisti i kuria nori java versija
+========================================================
+========================================================
+Notepad ++
+GoogleChrome
+Susinstaliuoti 7 zip
+========================================================
+PostgresSQL
+Sql shell vadinas kur viska dirbu
+========================================================
+
+https://nodejs.org/en/download/
+instaliuoti 64
